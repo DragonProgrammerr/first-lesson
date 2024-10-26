@@ -3,7 +3,7 @@ import os
 import random
 images = os.listdir('memes')
 images2 = os.listdir('catos')
-bot = telebot.TeleBot("6447235754:AAGQoRpIfGF4jHZsPdqMe71yFTiOoWFUCZI")
+bot = telebot.TeleBot("
 @bot.message_handler(commands=['dragon_mem'])
 def send_mem(message):
     random_image = random.choice(images)
